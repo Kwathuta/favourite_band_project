@@ -7,15 +7,16 @@ body {
   background-color: #e5e5e5;
 }
 
+.main {
+  max-width: 1920px;
+}
+
 .header {
-  width: 1440px;
   height: 1080px;
-  display: flex;
-  /* justify-content: space-between; */
+  margin-bottom: 50px;
 }
 
 .header-bg {
-  position: absolute;
   left: -240px;
   top: -12px;
 }
@@ -32,6 +33,18 @@ body {
   position: absolute;
   width: 69px;
   height: 69px;
-  left: 1500px;
+  left: 1700px;
   top: 51px;
+}
+p.intro {
+  margin: auto;
+  width: 1196px;
+  height: 274px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.01em;
 }
