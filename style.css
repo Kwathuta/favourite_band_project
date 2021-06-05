@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+}
+
+.header {
+  width: 1440px;
+  height: 1080px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.header-bg {
+  position: absolute;
+  left: -240px;
+  top: -12px;
+}
+
+.logo {
+  position: absolute;
+  width: 365px;
+  height: 253px;
+  left: 102px;
+  top: 11px;
+}
+
+.spotify {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  left: 1500px;
+  top: 51px;
+}
