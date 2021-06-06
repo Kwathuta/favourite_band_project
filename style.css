@@ -192,3 +192,106 @@ body {
   right: 540px;
   height: 680px;
 }
+
+.songs {
+  display: flex;
+  height: 650px;
+  width: 588px;
+  left: 600px;
+}
+
+#titleSongs {
+  color: #697d86;
+  position: absolute;
+  height: 100px;
+  width: 588px;
+  left: 680px;
+}
+
+.ul {
+  position: relative;
+  border: 3px solid #5a6b72;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 588px;
+  height: 500px;
+  top: 85px;
+  left: 600px;
+}
+
+.ul li a {
+  left: 100px;
+  text-decoration: none;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #697d86;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  height: 540px;
+  background-color: chartreuse;
+  background-image: url(img/1D\ Bandfooter.jpg);
+}
+
+#spotifyListen {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  left: 28px;
+  top: 70px;
+}
+
+#github-logo {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  left: 28px;
+}
+
+#titleSpotify {
+  position: relative;
+  color: #ffffff;
+  left: 110px;
+  top: -10px;
+  font-size: 60px;
+}
+
+#titleKwathuta {
+  position: relative;
+  color: #ffffff;
+  left: 110px;
+  top: -80px;
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.devKev {
+  display: flex;
+  position: relative;
+  width: 92px;
+  height: 45px;
+  left: 1590px;
+  top: 485px;
+  border: 1px #ffffff;
+  border-radius: 25px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: #697d86;
+  background-color: #ffffff;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
