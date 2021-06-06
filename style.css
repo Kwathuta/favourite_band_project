@@ -125,7 +125,8 @@ body {
   color: #697d86;
 }
 
-.borderPayne {
+.borderPayne,
+.borderTomlinson {
   position: relative;
   width: 785px;
   height: 528px;
@@ -163,4 +164,32 @@ body {
 
 .borderStyles {
   height: 546px;
+}
+
+.tomlinson {
+  display: flex;
+  background-color: chartreuse;
+  height: 880px;
+}
+
+#louis {
+  position: relative;
+  width: 477px;
+  height: 720px;
+  left: 1330px;
+  top: 88px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+#titleTomlinson {
+  position: relative;
+  left: 240px;
+  top: 40px;
+  color: #697d86;
+}
+.borderTomlinson {
+  right: 540px;
+  height: 680px;
 }
