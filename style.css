@@ -52,7 +52,7 @@ p.intro {
 p.title {
   font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 72px;
   line-height: 86px;
   letter-spacing: 0.02em;
@@ -77,12 +77,12 @@ p.title {
   border-radius: 25px;
 }
 
-p.title {
+#titleHoran {
   position: absolute;
   left: 608px;
 }
 
-p.border {
+p.borderHoran {
   position: relative;
   height: 438px;
   width: 776px;
@@ -91,7 +91,6 @@ p.border {
   border: 3px solid #ffffff;
   box-sizing: border-box;
   border-radius: 25px;
-  border-spacing: 5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -103,7 +102,7 @@ p.border {
 
 .payne {
   display: flex;
-  background-color: #64a52f;
+  height: 700px;
 }
 
 #liam {
@@ -111,8 +110,34 @@ p.border {
   width: 477px;
   height: 601px;
   left: 1330px;
-  top: 10px;
+  top: 50px;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 25px;
+}
+
+#titlePayne {
+  position: relative;
+  left: 420px;
+  top: 40px;
+  color: #697d86;
+}
+
+p.borderPayne {
+  position: relative;
+  width: 785px;
+  height: 528px;
+  right: 360px;
+  top: 123px;
+  border: 1px solid #697d86;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: #697d86;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
 }
