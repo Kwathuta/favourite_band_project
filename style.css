@@ -59,6 +59,10 @@ body {
   color: #e5e5e5;
 }
 
+a {
+  text-decoration: none;
+}
+
 .horan {
   height: 550px;
   min-width: 1920px;
@@ -269,6 +273,7 @@ footer {
 
 #titleKwathuta {
   position: relative;
+  text-decoration: none;
   color: #ffffff;
   left: 110px;
   top: -80px;
