@@ -14,7 +14,7 @@ HTML, CSS, Flexbox
 
 ## Support and contact details
 
-I'd love to chat! Ping me @kevocb on Twitter should any issues arise, or just say Hi.
+I'd love to chat! Ping me @kevocb on Twitter should any issues arise, or just say Hi!
 
 ### License
 
